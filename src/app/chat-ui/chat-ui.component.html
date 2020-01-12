@@ -1,0 +1,8 @@
+<div class="example-button-row">
+    <ul>
+        <li *ngFor="let item of texts; let i = index">
+            {{i}} - {{item.message}}  | {{item.sentFrom}}  | {{item.sentAt}}
+        
+        </li>
+    </ul>
+</div>
